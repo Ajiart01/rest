@@ -1,0 +1,14 @@
+{
+  "name": "video-downloader",
+  "version": "1.0.0",
+  "description": "Video downloader using @xct007/frieren-scraper",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@xct007/frieren-scraper": "*",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
